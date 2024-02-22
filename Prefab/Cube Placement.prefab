@@ -408,7 +408,7 @@ GameObject:
   - component: {fileID: 2749451851233643546}
   - component: {fileID: 5467450301686889867}
   m_Layer: 0
-  m_Name: Placement
+  m_Name: Cube Placement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
