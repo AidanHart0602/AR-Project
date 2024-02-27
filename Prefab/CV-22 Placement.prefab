@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 2627297662065201266}
   - component: {fileID: 4994561425020482353}
   m_Layer: 0
-  m_Name: Vehicle Placement
+  m_Name: CV-22 Placement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
