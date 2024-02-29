@@ -21,5 +21,12 @@ public class ExaminerScript : MonoBehaviour
     public void CallExaminer() 
     {
         examinerManager.ExecuteExaminer(this);
+        print("Starting Examiner");
+    }
+
+    public void RequestUnexamine() 
+    {
+        examinerManager.UndoExaminer();
+        print("Ending Examiner");
     }
 }
