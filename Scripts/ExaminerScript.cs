@@ -6,7 +6,8 @@ public class ExaminerScript : MonoBehaviour
 {
     [SerializeField]
     private ExaminerManagerScript examinerManager;
-
+    [SerializeField]
+    public float scaleOffset = 1f;
     void Start()
     {
         examinerManager = FindObjectOfType<ExaminerManagerScript>();    
