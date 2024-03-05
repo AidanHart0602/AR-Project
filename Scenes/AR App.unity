@@ -3347,7 +3347,7 @@ MonoBehaviour:
   m_XROrigin: {fileID: 583044715}
   m_ExcludeUITouches: 1
   m_ARSessionOrigin: {fileID: 0}
-  m_PlacementPrefab: {fileID: 7652757425244034060, guid: f7a818a87bbc07e438950438d5acd18e,
+  m_PlacementPrefab: {fileID: 8595406020458717887, guid: 3c9c545a90689f64b8b3fb25bca70e3b,
     type: 3}
   m_FallbackLayerMask:
     serializedVersion: 2
@@ -3361,7 +3361,8 @@ MonoBehaviour:
         m_MethodName: set_placementPrefab
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 8595406020458717887, guid: 3c9c545a90689f64b8b3fb25bca70e3b,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
