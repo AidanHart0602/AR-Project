@@ -22,13 +22,18 @@ public class ExaminerManagerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (examinationActive == true && Input.touchCount > 0) 
+        if (Input.touchCount > 0) 
         {
-                Touch touch = Input.GetTouch(0);
+            print("Touch Detected");
 
-            if(touch.phase == TouchPhase.Moved)
+            if (examinationActive == true)
             {
-                currentExaminedObject.transform.Rotate(touch.deltaPosition.x * rotationSpeed, touch.deltaPosition.y * rotationSpeed, 0);
+                Touch touch = Input.GetTouch(0);
+                
+                if (touch.phase == TouchPhase.Moved)
+                {
+                    currentExaminedObject.transform.Rotate(touch.deltaPosition.x * rotationSpeed, touch.deltaPosition.y * rotationSpeed, 0);
+                }
             }
         }
     }
