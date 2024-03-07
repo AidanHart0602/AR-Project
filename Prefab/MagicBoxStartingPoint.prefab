@@ -186,6 +186,7 @@ GameObject:
   - component: {fileID: 8796076421475945594}
   - component: {fileID: 4308905730239546798}
   - component: {fileID: 7561966238698320322}
+  - component: {fileID: 76621089030933113}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -262,6 +263,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &76621089030933113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369027799924215005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aceaf5866709cae468a086ae6a33635d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boxAnimator: {fileID: 7370067103230344326}
 --- !u!1 &1431594611470019118
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,6 +399,7 @@ GameObject:
   - component: {fileID: 3788842499090788672}
   - component: {fileID: 3788842499089691520}
   - component: {fileID: 7895278602720254825}
+  - component: {fileID: 7238281817371168642}
   m_Layer: 0
   m_Name: BlueGem
   m_TagString: Untagged
@@ -480,6 +495,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.15524858, y: 0.12247048, z: 0.15524857}
   m_Center: {x: -0.000000074505806, y: -0.03344578, z: -0.0000000037252899}
+--- !u!114 &7238281817371168642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3788842499087691072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36ac12bace3f3084e8c2aab46780ce2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gemColor: blue
 --- !u!1 &3903725373992657236
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,6 +1134,7 @@ GameObject:
   - component: {fileID: 6739069016910924498}
   - component: {fileID: 6739069016909826066}
   - component: {fileID: 5866497425853164867}
+  - component: {fileID: 2488298382311891142}
   m_Layer: 0
   m_Name: GreenGem
   m_TagString: Untagged
@@ -1201,6 +1230,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.15524858, y: 0.12247048, z: 0.15524857}
   m_Center: {x: -0.000000059604645, y: -0.03344578, z: -0.0000000037252899}
+--- !u!114 &2488298382311891142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6739069016912090834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36ac12bace3f3084e8c2aab46780ce2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gemColor: green
 --- !u!1 &7559108515336647058
 GameObject:
   m_ObjectHideFlags: 0
@@ -1496,6 +1538,7 @@ GameObject:
   - component: {fileID: 8562161561622450397}
   - component: {fileID: 8562161561623581213}
   - component: {fileID: 2254337529667954264}
+  - component: {fileID: 3138601292860056226}
   m_Layer: 0
   m_Name: RedGem
   m_TagString: Untagged
@@ -1591,3 +1634,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.15524858, y: 0.12247048, z: 0.15524857}
   m_Center: {x: 0, y: -0.03344578, z: -0.0000000037252899}
+--- !u!114 &3138601292860056226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8562161561625513181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36ac12bace3f3084e8c2aab46780ce2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gemColor: red

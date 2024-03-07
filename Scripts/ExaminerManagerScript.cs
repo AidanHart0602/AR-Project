@@ -11,6 +11,7 @@ public class ExaminerManagerScript : MonoBehaviour
     private Vector3 originalPosition;
     private Quaternion originalRotation;
     private Vector3 OriginalScale;
+    [SerializeField]
     private float rotationSpeed = 1;
     private bool examinationActive = false;
     // Start is called before the first frame update
@@ -32,7 +33,7 @@ public class ExaminerManagerScript : MonoBehaviour
                 
                 if (touch.phase == TouchPhase.Moved)
                 {
-                    currentExaminedObject.transform.Rotate(touch.deltaPosition.x * rotationSpeed, touch.deltaPosition.y * rotationSpeed, 0);
+                    currentExaminedObject.transform.Rotate(touch.deltaPosition.y * rotationSpeed, touch.deltaPosition.x * rotationSpeed, 0);
                 }
             }
         }
@@ -56,7 +57,6 @@ public class ExaminerManagerScript : MonoBehaviour
     {
         currentExaminedObject.transform.position = originalPosition;
         currentExaminedObject.transform.rotation = originalRotation;
-
         currentExaminedObject.transform.localScale = OriginalScale;
 
         currentExaminedObject.transform.parent = null;
