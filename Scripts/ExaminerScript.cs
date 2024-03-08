@@ -10,7 +10,7 @@ public class ExaminerScript : MonoBehaviour
     public float scaleOffset = 1f;
     void Start()
     {
-        examinerManager = FindObjectOfType<ExaminerManagerScript>();    
+       examinerManager = FindObjectOfType<ExaminerManagerScript>();    
     }
 
     // Update is called once per frame
